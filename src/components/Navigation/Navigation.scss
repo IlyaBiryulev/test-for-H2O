@@ -1,0 +1,33 @@
+.navigation {
+    width: 127px;
+    height: 100vh;
+    background-color:  #30898A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__logo {
+        width: 64px;
+        height: 38px;
+        margin-top: 55px;
+        background-image: url(../../assets/img/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &__list {
+        list-style: none;
+        margin-top: 84px;
+    }
+    &__list-item {
+        margin-bottom: 46px;
+    }
+    &__list-item:last-child {
+        margin-bottom: 0;
+    }
+    &__list-item:hover {
+        opacity: .8;
+    }
+    &__icon {
+        width: 42px;
+        height: 44px;
+    }
+}
