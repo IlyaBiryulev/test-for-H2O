@@ -3,10 +3,10 @@ import { Outlet } from 'react-router-dom';
 
 import Header from '../Header/Header';
 
-function AppLayout() {
+function AppLayout({value, onChangeTab}) {
     return (
         <>
-           <Header />
+           <Header value={value} onChangeTab={onChangeTab}/>
            <Outlet />
         </>
     );

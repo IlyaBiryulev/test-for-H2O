@@ -1,0 +1,18 @@
+.company-stats {
+    border-radius: 56px 56px 0 0 ;
+    background: #F8F8F8;
+    min-height: 100%;
+    &__title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 44px;
+        margin: 0 0 0 40px;
+        padding: 28px 0 19px;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 39px;
+    }
+}

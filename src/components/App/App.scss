@@ -2,4 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 127px 1fr;
+    &__content {
+        background: #F8F8F8;
+    }
 }

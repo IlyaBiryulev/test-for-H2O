@@ -1,0 +1,34 @@
+.user {
+    display: flex;
+    align-items: center;
+    &__avatar {
+        width: 56px;
+        height: 56px;
+        margin-right: 23px;
+    }
+    &__info {
+        list-style: none;
+    }
+    &__name {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.44px;
+    }
+    &__position {
+        color: #989FA3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    &__arrow {
+        background-image: url(../../assets/icons/userArrow.svg);
+        width: 16px;
+        height: 8px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 38px 0 143px;
+    }
+}

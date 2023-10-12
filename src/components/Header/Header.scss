@@ -1,4 +1,12 @@
 .header {
     width: 100%;
+    height: 154px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 56px 56px 0 0;
+    background: #FFF;
+    &__tab-pandel {
+        margin-left: 40px;
+    }
 }
